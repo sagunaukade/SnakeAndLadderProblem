@@ -1,15 +1,16 @@
 ﻿using System;
 
-namespace SnakeLadderGame
+namespace SnakeAndLadder
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Board size?");
-            int boardsize = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Number of players?");
-            int players = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("\n Welcome to Snake and Ladder programs ");
+            Console.WriteLine("\n Start the game");
+            Console.WriteLine("\n Starting position player 1 and 2 is 0 0");
+            SnakeLadder.PlayerSwitch();
+            Console.ReadLine();
         }
     }
 }
